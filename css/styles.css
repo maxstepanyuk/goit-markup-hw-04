@@ -419,6 +419,7 @@ address {
 .footer-social-title {
     color: #ffffff;
     margin-bottom: 16px;
+    font-weight: 500;
 }
 
 
@@ -428,6 +429,7 @@ address {
     justify-content: center;
 }
 
-.footer .social-link:hover {
+.footer .social-link:hover,
+.footer .social-link:focus {
     background-color: #31d0aa;
 }
