@@ -201,6 +201,20 @@ address {
     width: calc((100% - 72px) / 4);
 }
 
+.principles-icon-wrapper {
+    height: 112px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 8px;
+    
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+}
+
 .principles-title {
     font-weight: 500;
     font-size: 20px;
