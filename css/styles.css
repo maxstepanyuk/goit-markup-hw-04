@@ -125,14 +125,29 @@ address {
 }
 
 .navigation-link {
+    position: relative;
     color: #2e2f42;
     font-weight: 500;
     padding: 24px 0;
 }
 
 .navigation-link:hover,
-.navigation-link:focus {
+.navigation-link:focus,
+.navigation-link.active {
     color: #404bbf;
+}
+
+.navigation-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+
+    background-color: #404bbf;
 }
 
 .contacts-list {
