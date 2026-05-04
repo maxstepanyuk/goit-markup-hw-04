@@ -305,6 +305,10 @@ address {
     align-items: center;
 }
 
+.social-link:hover {
+    background-color: #404bbf;
+}
+
 /* @import url("./portfolio.css"); */
 
 .portfolio-list {
@@ -405,4 +409,8 @@ address {
     display: flex;
     gap: 16px;
     justify-content: center;
+}
+
+.footer .social-link:hover {
+    background-color: #31d0aa;
 }
