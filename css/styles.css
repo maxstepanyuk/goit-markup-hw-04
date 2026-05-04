@@ -321,6 +321,10 @@ address {
     background-color: #404bbf;
 }
 
+.social-link{
+    fill: #f4f4fd;
+}
+
 /* @import url("./portfolio.css"); */
 
 .portfolio-list {
