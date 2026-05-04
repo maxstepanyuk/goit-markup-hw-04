@@ -264,6 +264,26 @@ address {
 
 .team-role {
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.social {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.social-link {
+
+    width: 40px;
+    height: 40px;
+
+    background-color: #4d5ae5;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* @import url("./portfolio.css"); */
